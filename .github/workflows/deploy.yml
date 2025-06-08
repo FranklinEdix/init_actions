@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: mostrar mensaje
-        run: echo "¡Hola, mundo!"
+        run: echo "¡Hola, mundo deploy!"
