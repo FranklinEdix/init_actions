@@ -1,0 +1,11 @@
+name: Deploy to server
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: mostrar mensaje
+        run: echo "¡Hola, mundo!"
